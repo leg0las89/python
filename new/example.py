@@ -10,4 +10,7 @@ print(slist)
 
 del slist[-1]
 
+pop_list=slist.pop(0)
+
 print(slist)
+print(pop_list)
