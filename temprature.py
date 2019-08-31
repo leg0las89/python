@@ -7,4 +7,3 @@ def convert(temp):
             file.write(str(f) + "\n")
 
 convert(temp)
-            

@@ -8,3 +8,4 @@ def calc_far(t):
         return temprature,'C Temriture is equial', c," F"
 #for i in temprature:
 print(calc_far(temprature))
+asdsa
