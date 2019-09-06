@@ -5,5 +5,7 @@ def convert(temp):
         for c in temp:
             f = c * 9/5 + 32
             file.write(str(f) + "\n")
+            print(f)
 
 convert(temp)
+print(temp)
