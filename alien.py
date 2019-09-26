@@ -1,7 +1,6 @@
 aliens=[]
 
-for color in range(20):
-    alien={'color':'green','speed':'slow','Number':color}
+for i in range(30):
+    alien={"color":"green","speed":"slow","id":alien}
     aliens.append(alien)
-for i in aliens[:5]:
-    print(f"{i}\n")
+print(aliens)
