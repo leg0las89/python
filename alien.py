@@ -4,7 +4,7 @@ for i in range(30):
     alien={"color":"green","speed":"slow","id":i}
     aliens.append(alien)
 n=0
-for f in aliens[:10]:
+for f in aliens[:4]:
     if f["id"] % 2:
         f["color"]="yelow"
         f["speed"]="medium"
